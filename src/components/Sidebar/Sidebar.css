@@ -4,6 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: cornflowerblue;  
+}
 
+.sidebar li {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+ul{
+    padding: 0%;
 }

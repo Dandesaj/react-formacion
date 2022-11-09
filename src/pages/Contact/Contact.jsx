@@ -6,11 +6,12 @@ import Main from '../../components/Main/Main'
 import Sidebar from '../../components/Sidebar/Sidebar'
 
 const Contact = () => {
+    var data= ["email","text","phone"];
   return (
     <div className="contact">
         <Header title="Contact"/>
         <Navbar/>
-        <Sidebar/>
+        <Sidebar tabs={data}/>
         <Main text="contacts page"/>
         <Footer/>
     </div>

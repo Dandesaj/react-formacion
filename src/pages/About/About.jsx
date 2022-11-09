@@ -7,12 +7,18 @@ import Main from '../../components/Main/Main'
 
 
 const About = () => {
+  const tabData = ["view profile","add as friend","block"];
+  const mainData = {
+    name: "Sebastian",
+    age: 31,
+    address: "test"
+  }
   return (
     <div className="about">
         <Header title="About"/>
         <Navbar/>
-        <Sidebar/>
-        <Main text="The About Page"/>
+        <Sidebar tabs={tabData}/>
+        <Main text="Welcome, " data={mainData}/>
         <Footer/>
     </div>
   )

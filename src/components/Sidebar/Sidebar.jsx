@@ -1,9 +1,16 @@
 import "./Sidebar.css";
+import { Link } from 'react-router-dom'
 
-const Sidebar = () => {
+const Sidebar = ({tabs=[]}) => {
   return (
     <div className="sidebar">
-        Sidebar
+      <ul>        
+        {tabs.map(tab=> 
+        <li>
+          <Link>{tab}</Link>
+        </li>)}        
+      </ul>
+        
     </div>
   );
 };

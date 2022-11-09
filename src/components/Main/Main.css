@@ -1,8 +1,13 @@
 .main{
     width: 85vw;
-    display:flex;
+    display:block;
     justify-content: center;
     align-items: center;
     height: 75vh;
     background: grey;
+}
+
+.cake{
+    display: flex;
+    justify-content: center;
 }
