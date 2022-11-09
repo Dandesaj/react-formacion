@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-formacion/static/css/main.869419e9.css",
+    "main.js": "/react-formacion/static/js/main.c0d7e73c.js",
+    "static/js/787.847df7a8.chunk.js": "/react-formacion/static/js/787.847df7a8.chunk.js",
+    "index.html": "/react-formacion/index.html",
+    "main.869419e9.css.map": "/react-formacion/static/css/main.869419e9.css.map",
+    "main.c0d7e73c.js.map": "/react-formacion/static/js/main.c0d7e73c.js.map",
+    "787.847df7a8.chunk.js.map": "/react-formacion/static/js/787.847df7a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.869419e9.css",
+    "static/js/main.c0d7e73c.js"
+  ]
+}
