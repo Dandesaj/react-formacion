@@ -17,8 +17,8 @@ const About = () => {
     <div className="about">
         <Header title="About"/>
         <Navbar/>
-        <Sidebar tabs={tabData}/>
-        <Main text="Welcome, " data={mainData}/>
+        <Sidebar style="primary" tabs={tabData}/>
+        <Main text="Welcome, " data={mainData} />
         <Footer/>
     </div>
   )

@@ -11,7 +11,7 @@ const Contact = () => {
     <div className="contact">
         <Header title="Contact"/>
         <Navbar/>
-        <Sidebar tabs={data}/>
+        <Sidebar style="secondary" tabs={data}/>
         <Main text="contacts page"/>
         <Footer/>
     </div>

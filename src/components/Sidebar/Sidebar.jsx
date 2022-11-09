@@ -1,13 +1,15 @@
 import "./Sidebar.css";
 import { Link } from 'react-router-dom'
 
-const Sidebar = ({tabs=[]}) => {
+const Sidebar = ({style, tabs=[]}) => {
   return (
     <div className="sidebar">
       <ul>        
         {tabs.map(tab=> 
         <li>
-          <Link>{tab}</Link>
+          <button className={style}>
+            <Link >{tab}</Link>
+          </button>
         </li>)}        
       </ul>
         

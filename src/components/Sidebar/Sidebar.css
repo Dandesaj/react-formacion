@@ -16,3 +16,17 @@
 ul{
     padding: 0%;
 }
+button{
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+}
+.primary{
+    background-color:  red;
+}
+.secondary{
+    background-color: orange;
+}
+.tertiary{
+    background-color:  orangered;
+}
